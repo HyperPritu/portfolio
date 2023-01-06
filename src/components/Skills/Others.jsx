@@ -40,7 +40,7 @@ const Others = () => {
             <i className="bx bx-badge-check"></i>
 
             <div>
-              <h3 className="skills__name">Android Development</h3>
+              <h3 className="skills__name">Android<br />Development</h3>
               <span className="skills__level">Intermediate</span>
             </div>
           </div>

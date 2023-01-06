@@ -73,7 +73,7 @@
 /* Small Devices */
 @media screen and (max-width: 350px) {
   .skills__box{
-    column-gap: 1.25rem;
+    column-gap: 1.5rem;
   }
 
   .skills__name{

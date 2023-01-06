@@ -134,7 +134,7 @@ img {
 
 /* ============== LAYOUT ============== */
 .container {
-  max-width: 980px;
+  max-width: 992px;
   margin-left: auto;
   margin-right: auto;
 }

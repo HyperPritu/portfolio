@@ -9,17 +9,25 @@ const Qualification = () => {
   }
 
   return (
-    <section className="qualification section">
+    <section className="qualification section" id="qualification">
       <h2 className="section__title">Qualification</h2>
       <span className="section__subtitle">My personal journey</span>
 
       <div className="qualification__container container">
         <div className="qualification__tabs">
-          <div className={toggle === 1 ? 'qualification__button qualification__active button__flex' : 'qualification__button button__flex'} onClick={()=>{toggleTab(1)}}>
+          <div
+            className={toggle === 1 ? 'qualification__button qualification__active button__flex' : 'qualification__button button__flex'}
+            onClick={() => {
+              toggleTab(1)
+            }}>
             <i className="uil uil-graduation-cap qualification__icon"></i> Education
           </div>
 
-          <div className={toggle === 2 ? 'qualification__button qualification__active button__flex' : 'qualification__button button__flex'} onClick={()=>{toggleTab(2)}}>
+          <div
+            className={toggle === 2 ? 'qualification__button qualification__active button__flex' : 'qualification__button button__flex'}
+            onClick={() => {
+              toggleTab(2)
+            }}>
             <i className="uil uil-briefcase-alt qualification__icon"></i> Experience
           </div>
         </div>

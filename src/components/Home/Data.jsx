@@ -23,7 +23,7 @@ const Data = () => {
       <h3 className="home__subtitle">
         <Typewriter
           options={{
-            strings: ['Web Debeloper', 'Android Developer', 'Full-Stack Developer'],
+            strings: ['Web Developer', 'Android Developer', 'Full-Stack Developer'],
             autoStart: true,
             loop: true,
           }}
